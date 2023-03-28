@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+a , ul ,li {
+    text-decoration: none;
+    list-style: none;
+    text-shadow: 1px 1px 2px rgb(2, 59, 66);
+   
+}
+
+.header {
+    background-image: linear-gradient(to bottom,#6D7D73,#8DF7B5);
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.busca {
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+
+}
+
+div > p {
+    display: none;
+}    
+
+
+
+div:hover > p {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+div:hover > img{
+    width: 320px;
+    height: 320px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+    background-color: #00ffff;
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#2F4F4F,#8294A8);
+    font-size: 20px;
+    font-style: arial;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(2, 202, 252);
+    font-family: 'Lobster', cursive;
+}
+
+.ofer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+div > img{
+    width: 300px;
+    height: 300px;
+   
+}
+
+nav > div {
+    max-width: 300px;
+    margin: 15px;
+}
+
+div > video {
+    max-width: 300px;
+}
+
+
+.foot {
+    background-color: #2F4F4F;
+    align-items: center;
+    display: flex;
+    justify-content: space-around
+}
+
+.redes > li {
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: px;
+    text-align: center;
+}
+
+
+.copy {
+    color: rgb(13, 5, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
